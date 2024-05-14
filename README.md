@@ -2,9 +2,12 @@
 
 This repository contains the source code for a classic Tetris game developed in C++ using the Simple and Fast Multimedia Library (SFML). The game implements core Tetris mechanics like falling Tetriminos, line clearing, scorekeeping, and a user-friendly interface.
 
-<!-- ![poster](/tetris.png) -->
-<img width="50%" src="/tetris.png" alt="">
-<img width="50%" src="/tetris_game.png" alt="">
+<!-- <img width="30%" src="/tetris.png" alt="">
+<img width="30%" src="/tetris_game.png" alt="">-->
+
+| ![tetris](./tetris.png) | ![tetris](./tetris_game.png) |
+|---|---|
+
 
 #### Features
 
@@ -75,12 +78,12 @@ The maxScore.txt file stores the highest score achieved. You can reset it manual
 
 The project is organized into several files with well-defined responsibilities:
 
-- Board.cpp and Board.hpp: Implement the game board logic, including grid management, line clearing, and scoring.
-- gameOver.ogg, line.ogg, music.ogg, newScore.ogg, and sounds.ogg: Optional sound effects and background music for a more immersive gameplay experience.
-- ka1.ttf (Karmatic Arcade font): Font file used for displaying the score and other UI elements.
-- main.cpp: The entry point of the program, where all game components are initialized, the game loop is managed, and user input is handled.
-- Makefile (optional): Automated build script for compilation and linking.
-- maxScore.txt: Stores the highest achieved score.
-- Pieces.cpp and Pieces.hpp: Responsible for creating and rotating falling pieces also called tetriminous.
-- Sounds.cpp and Sounds.hpp: For integrating sound into the game.
-- UI.cpp and UI.hpp: For visual or ui.
+- **Board.cpp and Board.hpp:** Implement the game board logic, including grid management, line clearing, and scoring.
+- **gameOver.ogg, line.ogg, music.ogg, newScore.ogg, and sounds.ogg:** Optional sound effects and background music for a more immersive gameplay experience.
+- **ka1.ttf (Karmatic Arcade font):** Font file used for displaying the score and other UI elements.
+- **main.cpp:** The entry point of the program, where all game components are initialized, the game loop is managed, and user input is handled.
+- **Makefile** (optional): Automated build script for compilation and linking.
+- **maxScore.txt:** Stores the highest achieved score.
+- **Pieces.cpp and Pieces.hpp:** Responsible for creating and rotating falling pieces also called tetriminous.
+- **Sounds.cpp and Sounds.hpp:** For integrating sound into the game.
+- **UI.cpp and UI.hpp:** For visual or ui.
